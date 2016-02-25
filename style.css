@@ -1,0 +1,362 @@
+body {
+	width: 100%;
+}
+
+* {
+	font-family: cursive;
+}
+
+header{
+	position: absolute;
+}
+
+.menu {
+	width: 100%;
+	height: 8em;
+	margin-left: -0.5em;
+	margin-top: -7em;
+	background: -moz-linear-gradient(right, #525452, #000, #525452);
+	background: linear-gradient(to right, #525452, #000, #525452);
+	position: fixed;
+}
+
+.menu1 {
+	width: 100%;
+	height: 5em;
+	margin-left: -0.5em;
+	margin-top: -7em;
+	background: -moz-linear-gradient(right, #525452, #000, #525452);
+	background: linear-gradient(to right, #525452, #000, #525452);
+	position: fixed;
+}
+
+.opcion {
+	padding:4em;
+	margin:0;
+	list-style:none;
+	height:5em;
+	z-index:5;
+	text-align:center;
+	position: !important;
+}
+
+.opcion1 {
+	padding:4em;
+	margin:0;
+	list-style:none;
+	height:5em;
+	z-index:5;
+	text-align:center;
+	position: !important;
+	margin-top: -3em;
+}
+
+.opcion1 li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.opcion1 li {
+	display:block;
+	float:left;
+	height:2em;
+	margin-top: 2em;
+	border-radius: 1.8em 0 1.8em 0;
+	color:white;
+	font-family:cursive;
+	font-size:15px; /* Tamaño de la fuente */
+	font-weight:bold;
+	padding:0 0.5em 0 0.5em;
+	cursor:pointer;
+	text-align:center;
+}
+
+.opcion1 li:hover {
+	background: -moz-linear-gradient(right, #1F9514, #29F717);
+	background: linear-gradient(to right, #1F9514 , #29F717);
+}
+
+.opcion li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.opcion li {
+	display:block;
+	float:left;
+	height:2em;
+	margin-top: 2em;
+	border-radius: 1.8em 0 1.8em 0;
+	color:white;
+	font-family:cursive;
+	font-size:15px; /* Tamaño de la fuente */
+	font-weight:bold;
+	padding:0 0.5em 0 0.5em;
+	cursor:pointer;
+	text-align:center;
+}
+
+.opcion li:hover {
+	background: -moz-linear-gradient(right, #1F9514, #29F717);
+	background: linear-gradient(to right, #1F9514 , #29F717);
+}
+
+.logo {
+	font-size: 1.5em;
+	background: -webkit-linear-gradient(left, #1F9514, #29F717);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: -moz-linear-gradient(left, #1F9514, #29F717);
+	float: right;
+	margin-top: -7.5em;
+	margin-right: 10em;
+}
+
+.logo1 {
+	font-size: 1.5em;
+	background: -webkit-linear-gradient(left, #1F9514, #29F717);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background: -moz-linear-gradient(left, #1F9514, #29F717);
+	float: right;
+	margin-top: -5.5em;
+	margin-right: 10em;
+}
+
+#img{
+	background-image: url(http://i0.wp.com/presidencia.go.cr/wp-content/uploads/2015/10/home-office-336378_1920.jpg?fit=1170%2C9999);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50em;
+	margin-left: -0.5em;
+	margin-top: 7em;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+#titulo{
+	text-align: center;
+}
+
+#titulo span{
+	font-size: 4em;
+	color: #FFF;
+}
+
+#services{
+	background: -moz-linear-gradient(right, #000, #525452, #000);
+	background: linear-gradient(to right, #000, #525452, #000);
+	width: 100%;
+	height: 15em;
+	margin-left: -0.5em;
+}
+
+#deta-servicios{
+	height: 20em;
+	width: 100%;
+}
+
+#desa-web{
+	margin-left: 5em;
+	position: absolute;
+}
+
+#desa-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#desa-web div{
+	width: 15em;
+	height: 12em;
+	border: 1px solid #1F9514;
+	background-color: #CAC8C8;
+	border-radius: 2em;
+	padding-left: 0.5em;
+	display: inline-table;
+}
+
+#app-web{
+	margin-left: 38em;
+	margin-top: -1.5em;
+	position: absolute;
+
+}
+
+#app-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#app-web div{
+	width: 15em;
+	height: 12em;
+	border: 1px solid #1F9514;
+	margin-left: 0.5em;
+	background-color: #CAC8C8;
+	border-radius: 2em;
+	padding-left: 0.5em;
+	display: inline-table;
+}
+
+#mant-web{
+	margin-left: 62em;
+	margin-top: -3em;
+	position: absolute;
+}
+
+#mant-web span{
+	color: #1F9514;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#mant-web div{
+	width: 15em;
+	height: 12em;
+	margin-left: 1.5em;
+	border: 1px solid #1F9514;
+	background-color: #CAC8C8;
+	border-radius: 2em;
+	padding-left: 0.3em;
+	display: inline-table;
+}
+
+#mantenimiento{
+	width: 100%;
+	height: 40em;
+	margin-left: -0.5em;
+}
+
+#img-html-css{
+	width: 25em;
+	height: 15em;
+	margin-right: 2em;
+	float: right;
+	margin-top: 4em;
+	position: static;
+}
+
+#img-js{
+	width: 12em;
+	height: 14em;
+	margin-right: -11.5em;
+	float: right;
+	margin-top: 20em;
+	position: !important;
+}
+
+#img-jquery{
+	width: 13em;
+	height: 10em;
+	margin-right: -26em;
+	margin-top: 22em;
+	float: right;
+}
+#img-mant{
+	width: 60em;
+	height: 30em;
+	margin-left: -11em;
+	margin-top: 5em;
+	float: left;
+}
+
+.contact{
+	height: 32em;
+	width: 100%;
+	margin-left: -0.5em;
+	background: -moz-linear-gradient(right, #1F9514, #29F717, #1F9514);
+	background: linear-gradient(to right, #1F9514, #29F717, #1F9514);
+}
+
+.cmxform{
+	width: 14em;
+	text-align: center;
+}
+
+.submit{
+	background: -moz-linear-gradient(right, #1F9514, #29F717, #1F9514);
+	background: linear-gradient(to right, #1F9514, #29F717, #1F9514);
+	width: 6em;
+	border: none;
+	font-size: 1.5em;
+	border-radius: 5em 0 5em 0;
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	height: 13em;
+	margin-left: -0.5em;
+	background: -moz-linear-gradient(right, #525452, #000, #525452);
+	background: linear-gradient(to right, #525452, #000, #525452);
+}
+
+.redes{
+	width: 15em;
+	height: 7em;
+	background: -moz-linear-gradient(right, #1F9514, #29F717, #1F9514);
+	background: linear-gradient(to right, #1F9514, #29F717, #1F9514);
+	float: right;
+	margin-right: 5em;
+	text-align: center;
+	border-radius: 1em;
+}
+
+#face{
+	width: 3em;
+	height: 2.5em;
+	margin-top: 10px;
+}
+
+#linkedin{
+	width: 3em;
+	height: 2.5em;
+	margin-top: 10px;
+}
+
+.fcontacto{
+	width: 15em;
+	height: 7em;
+	background: -moz-linear-gradient(right, #1F9514, #29F717, #1F9514);
+	background: linear-gradient(to right, #1F9514, #29F717, #1F9514);
+	margin-left: 5em;
+	margin-top: -1em;
+	text-align: center;
+	border-radius: 1em;
+}
+
+.fmenu{
+	text-align: center;
+}
+
+.fmenu a{
+	color: #29F717;
+	text-decoration: none;
+	margin-left: 1em;
+}
+
+#rights{
+	color: #29F717;
+	text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
